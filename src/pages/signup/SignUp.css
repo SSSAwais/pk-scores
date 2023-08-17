@@ -1,0 +1,370 @@
+.sign_up_main_wrapepr .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign_up_main_wrapepr {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sign_up_main_wrapepr .left_section_sign,
+.sign_up_main_wrapepr .right_section_signUp {
+  width: 48%;
+}
+.signup_heading h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #102691;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.buttons_section .sign_up_button {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #102691;
+}
+.sign_up_main_wrapepr input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.sign_up_main_wrapepr .sigup_form {
+  display: flex;
+  flex-direction: column;
+}
+.sign_up_main_wrapepr .css-153e35n-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+  display: none !important;
+}
+.sign_up_main_wrapepr .checkBox_signup {
+  display: flex;
+  align-items: center;
+}
+.sign_up_main_wrapepr .checkBox_signup span {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.sign_up_main_wrapepr .checkBox_signup h6 {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #00072c;
+}
+.buttons_section p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #00072c;
+  margin: 40px 0px;
+}
+.sign_up_main_wrapepr .buttons_section {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.sign_up_main_wrapepr .sign_up_button {
+  width: 100%;
+  padding: 16px 0px;
+  background: linear-gradient(266.57deg, #b6ffe5 -4.01%, #4eeeb3 89.75%);
+  border-radius: 10px;
+}
+.buttons_section p {
+  text-align: center;
+}
+.left_section_sign .social_button {
+  display: flex;
+  justify-content: space-between;
+}
+.social_button button {
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  border: 1px solid #3479fb;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #102691;
+  padding: 16px 35px;
+}
+.sign_up_main_wrapepr .already_member {
+  margin-top: 40px;
+}
+.already_member .top_,
+.already_member .bottom_ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.already_member .top_ p,
+.already_member .bottom_ p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00072c;
+  margin-top: 0px;
+}
+.top_ a,
+.bottom_ a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #102691;
+  text-decoration-color: #102691;
+  text-decoration-style: 2px;
+  text-underline-offset: 5px;
+}
+.right_section_signUp .prscrore_sign_ip {
+  background-color: #f9fcff;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 10px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.prscrore_sign_ip .pills {
+  width: 100%;
+  height: auto;
+}
+/* .wavesImg{
+    background:url('../../assets/images/techinicalsupport.png');
+    z-index: 1;
+
+} */
+.right_section_signUp .tech_support_section {
+  position: relative;
+  z-index: 10;
+}
+.right_section_signUp .tech_support_section:after {
+  content: "";
+  background: url("../../assets/images/techinicalsupport.png");
+  position: absolute;
+  width: 400px;
+  height: 107px;
+  opacity: 0.6;
+  right: 0;
+  bottom: 0;
+}
+.right_section_signUp .tech_support_section {
+  background: linear-gradient(180deg, #000000 0%, #000b40 100%);
+  background-repeat: no-repeat;
+  background-position: right;
+  z-index: 0;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 30px 30px;
+}
+.tech_inner_values {
+  display: flex;
+  align-items: center;
+}
+.tech_inner_values .dots__ {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4eeeb3;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 0px 10px #4eeeb3;
+  margin-right: 12px;
+}
+.contact__signup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.contact__signup2 .email {
+  display: flex;
+  margin-top: 30px;
+}
+.email_img {
+  background: rgba(16, 38, 145, 0.19);
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.contact__signup .email {
+  display: flex;
+}
+.email_texts h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  margin: 0px;
+  color: #d9d9d9;
+  margin-bottom: 6px;
+}
+.email_texts h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0px;
+}
+.tech_inner_values h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+  color: #38e292;
+  margin: 0px;
+}
+.tech_heading p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0px;
+  color: #ffffff;
+}
+.tech_support_section2 {
+  display: none;
+}
+.sign_up_button .arrow_icon {
+  margin-left: 6px;
+}
+.already_member .top_ {
+  margin-bottom: 20px;
+}
+.already_member .top_ p,
+.already_member .bottom_ p {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 1280px) {
+  .left_section_sign .social_button {
+    flex-direction: column;
+  }
+  .social_button button {
+    margin-bottom: 20px;
+  }
+  .contact__signup {
+    flex-direction: column;
+  }
+  .contact__signup {
+    margin-top: 0px;
+  }
+  .contact__signup .email {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .already_member .top_ p,
+  .already_member .bottom_ p {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .sign_up_main_wrapepr .row {
+    flex-direction: column-reverse;
+  }
+  .sign_up_main_wrapepr .left_section_sign,
+  .sign_up_main_wrapepr .right_section_signUp {
+    width: 100%;
+  }
+  .tech_support_section {
+    display: none;
+  }
+  .signup_heading h2 {
+    font-size: 26px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 38px;
+  }
+  .signup__wrapper_left_section .signup_heading {
+    margin: 40px 0px;
+  }
+  .right_section_signUp .prscrore_sign_ip {
+    text-align: center;
+  }
+  .already_member .top_,
+  .already_member .bottom_ {
+    flex-direction: column;
+  }
+  .top_ a {
+    width: 100%;
+    padding: 16px 0px;
+    background: linear-gradient(266.57deg, #b6ffe5 -4.01%, #4eeeb3 89.75%);
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+  .buttons_section p {
+    margin: 30px 0px;
+  }
+  .social_button button {
+    margin-bottom: 18px;
+  }
+  .tech_support_section2 {
+    display: block;
+    position: relative;
+    z-index: 10;
+  }
+  .mobile_view_sign_ip .tech_support_section2 {
+    background: linear-gradient(180deg, #000000 0%, #000b40 100%);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 0;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 30px 30px;
+  }
+  .mobile_view_sign_ip .tech_support_section2:after {
+    content: "";
+    background: url("../../assets/images/techinicalsupport.png");
+    position: absolute;
+    width: 400px;
+    height: 107px;
+    opacity: 0.6;
+    right: 0;
+    bottom: 0;
+  }
+  .sign_up_main_wrapepr .mobile_view_sign_ip {
+    padding: 0px !important;
+  }
+  .already_member .top_ {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .top_ a, .bottom_ a , .already_member .top_ p, .already_member .bottom_ p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .top_ a, .bottom_ a , .already_member .top_ p, .already_member .bottom_ p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top_ a, .bottom_ a , .already_member .top_ p, .already_member .bottom_ p{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .signup_heading h2 {
+    width: 72%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .signup_heading h2 {
+    width: 82%;
+  }
+}

@@ -1,0 +1,20 @@
+.personal--bottom--circle {
+  position: relative;
+  width: 80%;
+}
+.personal--bottom--circle img {
+  width: 70px;
+  float: right;
+  position: relative;
+  z-index: 55555;
+}
+
+@media screen and (max-width: 640px) {
+  .personal--bottom--circle---for--relative {
+    position: relative;
+  }
+  .personal--bottom--circle {
+    position: absolute;
+    top: -35px;
+  }
+}

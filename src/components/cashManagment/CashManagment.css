@@ -1,0 +1,525 @@
+.bubble_chart_wrapepr {
+  width: 100%;
+}
+.cash_manag,
+.cash_manag2 {
+  width: 100%;
+  border-bottom: 1px solid #404040;
+}
+.cash_managment_sect h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #00072c;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.cash_manag2 .cash_managment_sect h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #00072c;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.home_mortage_section .info_left_sec,
+.other_income_top .other_income_left {
+  width: 35%;
+}
+.info_left_sec p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00072c;
+  display: flex;
+  align-items: center;
+}
+.mortage_para span {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.home_mortage_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider_range_cash .range_slider {
+  margin: auto;
+}
+.right_section_cash {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.other_income_top {
+  display: flex;
+}
+.income_second_section {
+  display: flex;
+  align-items: flex-start;
+}
+.income_second_section .income_left_sec {
+  width: 36%;
+}
+.income_second_section .income_left_sec .para_income {
+  padding: 20px;
+  width: 50%;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 10px;
+}
+.income_second_section .income_left_sec .para_income p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #404040;
+}
+.cash_managment .radio_wrapper {
+  padding-left: 2px !important;
+}
+.total_annual_value {
+  padding-left: 5px;
+}
+.right_section_cash .income_range {
+  margin-left: 2px;
+}
+.info_left_sec3 {
+  width: 36%;
+}
+.range_inputs input {
+  margin: 0px;
+  border: 1px solid #404040;
+  padding: 8px 25px;
+  color: #00072c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 40px;
+  text-align: center;
+  width: 100px;
+}
+.text_area_section {
+  margin-top: 20px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 10px;
+  width: 95%;
+  border: none;
+}
+.chart_img {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.chart_tax {
+  position: absolute;
+  left: 46%;
+  top: 12%;
+}
+.home_mortage_chart {
+  position: absolute;
+  top: 38%;
+  left: 17%;
+}
+.life_exp_chart {
+  position: absolute;
+  bottom: 21%;
+  left: 37%;
+}
+.auto_loan_chart {
+  position: absolute;
+  right: 29%;
+  top: 33%;
+}
+.health_ins_chart {
+  position: absolute;
+  right: 12%;
+  bottom: 47%;
+}
+.homeunkeeping_chart {
+  position: absolute;
+  right: 21%;
+  bottom: 28%;
+}
+.mortage_wrapper {
+  margin-top: 30px;
+}
+.mobile_radio_view {
+  display: none;
+}
+.chart_mobile {
+  display: none;
+}
+.textarea_section {
+  width: 100%;
+}
+.cash_managment .buttons_section {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cash_managment .buttons_section button:nth-child(1) {
+  margin-right: 20px;
+}
+.cash_contain {
+  padding: 0px !important;
+}
+.cash_managment .tooltip {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.cash_managment_sect .ongoing_expense {
+  display: flex;
+  align-items: center;
+}
+.chart_img .chart_tax p,
+.life_exp_chart p,
+.auto_loan_chart p,
+.health_ins_chart p,
+.homeunkeeping_chart p,
+.home_mortage_chart p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #102691;
+  margin: 0px;
+}
+.home_mortage_chart p {
+  color: white;
+}
+.value {
+  position: relative;
+}
+.value .dollar {
+  position: absolute;
+  position: absolute;
+  margin: 0px;
+  top: 11px;
+  left: 13px;
+}
+.radio_mobi,
+.income_range_mobile {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  .cash_managment .radio_wrapper {
+    padding-left: 0px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home_mortage_chart {
+    left: 13%;
+  }
+  .health_ins_chart {
+    right: 7%;
+  }
+  .auto_loan_chart {
+    right: 26%;
+  }
+  .homeunkeeping_chart {
+    right: 17%;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .home_mortage_chart {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .auto_loan_chart {
+    right: 21%;
+  }
+  /* .health_ins_chart {
+  right: 0%;
+}
+.homeunkeeping_chart {
+  right: 11%;
+} */
+}
+@media screen and (max-width: 992px) {
+  .home_mortage_chart {
+    left: 19%;
+  }
+  .income_mobile_css .value {
+    margin-top: 15px;
+    text-align: end;
+  }
+  .buttons_section {
+    flex-direction: column;
+  }
+  .buttons_section button:nth-child(1) {
+    width: 100%;
+  }
+  .auto_loan_chart {
+    right: 31%;
+  }
+  .health_ins_chart {
+    right: 16%;
+  }
+  .homeunkeeping_chart {
+    right: 24%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .auto_loan_chart {
+    right: 29%;
+  }
+  .health_ins_chart {
+    right: 12%;
+  }
+  .homeunkeeping_chart {
+    right: 21%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .info_left_sec3 {
+    width: 72%;
+  }
+  .income_mobile_css .dollar {
+    right: 128px;
+  }
+  .income_mobile_css {
+    display: block;
+  }
+  .income_second_section .income_left_sec {
+    width: 90%;
+  }
+  .income_second_section .income_left_sec .para_income,
+  .right_section_cash {
+    width: 100%;
+  }
+  .income_range_mobile {
+    margin-top: 20px;
+  }
+  .income_second_section {
+    display: block;
+  }
+  .radio_web,
+  .property_ranger_slider,
+  .loan_range_slifder,
+  .monthly_payments,
+  .income_range,
+  .chart_img,
+  .radio_mobi {
+    display: none;
+  }
+  .mobile_radio_view,
+  .web_view_mortage33,
+  .radio_mobi,
+  .chart_mobile,
+  .mobile_range_slider_icon,
+  .income_range_mobile {
+    display: block;
+  }
+  .right_section_cash {
+    justify-content: end;
+  }
+  .slider_range_cash .range_slider,
+  .mobile_radio_view .range_slider,
+  .modes_left_section_debt {
+    width: 100% !important;
+  }
+  .mobile_debt_class {
+    display: block;
+  }
+  .mobile_debt_class .info_left_sec p br {
+    display: none !important;
+  }
+  .debt_modes .right_section_cash {
+    justify-content: center;
+    width: 100%;
+  }
+  .chart_mobile {
+    /* position:relative; */
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .home_upkeep {
+    background: #d6fff0;
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* float: right; */
+    /* position: absolute;
+        top: 0; */
+  }
+  .home_upkeep p,
+  .home_upkeep h6 {
+    margin: 0px;
+  }
+  .chart_mobile {
+    position: relative;
+  }
+  .chart_mobile .homeunkeeping_chart {
+    position: absolute;
+    top: 8%;
+    right: 28%;
+  }
+  .chart_mobile .home_mortage_chart {
+    position: absolute;
+    top: 21%;
+    left: 36%;
+  }
+  .chart_mobile .life_exp_chart {
+    position: absolute;
+    bottom: 50%;
+    left: 42%;
+  }
+  .chart_mobile .chart_taxs {
+    position: absolute;
+    bottom: 26%;
+    left: 36%;
+  }
+  .chart_mobile .auto_loan_charts {
+    position: absolute;
+    bottom: 21%;
+    right: 32%;
+  }
+  .chart_mobile .health_ins_charts {
+    position: absolute;
+    bottom: 7%;
+    left: 46%;
+  }
+  .chart_mobile .chart_taxs p,
+  .chart_mobile .homeunkeeping_chart p,
+  .chart_mobile .home_mortage_chart p,
+  .chart_mobile .life_exp_chart p,
+  .chart_mobile .auto_loan_charts p,
+  .chart_mobile .health_ins_charts p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #102691;
+  }
+  .chart_mobile .home_mortage_chart p {
+    color: white;
+  }
+}
+@media screen and (max-width: 820px) {
+  .home_mortage_chart {
+    left: 13%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 25%;
+  }
+  .chart_mobile .home_mortage_chart {
+    left: 34%;
+  }
+  .chart_mobile .chart_taxs {
+    left: 33%;
+  }
+  .chart_mobile .auto_loan_charts {
+    right: 30%;
+  }
+  .chart_mobile .health_ins_charts {
+    left: 45%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 29%;
+    top: 9%;
+  }
+  .chart_mobile .homeunkeeping_chart p {
+    font-size: 10px;
+  }
+  .chart_mobile img {
+    width: 250px;
+  }
+  .chart_mobile .home_mortage_chart {
+    left: 36%;
+  }
+  .chart_mobile .life_exp_chart {
+    left: 40%;
+  }
+  .chart_mobile .chart_taxs {
+    left: 36%;
+  }
+  .chart_mobile .auto_loan_charts {
+    right: 33%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 23%;
+    top: 9%;
+  }
+  .chart_mobile .home_mortage_chart {
+    left: 31%;
+  }
+  .chart_mobile .chart_taxs {
+    left: 31%;
+  }
+  .chart_mobile .life_exp_chart {
+    left: 36%;
+  }
+  .chart_mobile .auto_loan_charts {
+    right: 27%;
+  }
+  .chart_mobile .health_ins_charts {
+    left: 43%;
+  }
+  .bubble_chart_wrapepr {
+    max-height: 400px !important;
+  }
+}
+@media screen and (max-width: 465px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 21%;
+    top: 9%;
+  }
+  .chart_mobile .chart_taxs {
+    left: 30%;
+  }
+  .chart_mobile .auto_loan_charts {
+    right: 26%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 17%;
+    top: 9%;
+  }
+  .text_area_section {
+    width: 82%;
+  }
+  .chart_mobile .life_exp_chart {
+    left: 33%;
+  }
+  .chart_mobile .chart_taxs {
+    left: 27%;
+  }
+  .chart_mobile .auto_loan_charts {
+    right: 23%;
+  }
+  .chart_mobile .health_ins_charts {
+    left: 41%;
+  }
+  .chart_mobile .home_mortage_chart {
+    left: 27%;
+  }
+}
+@media screen and (max-width: 385px) {
+  .chart_mobile .homeunkeeping_chart {
+    right: 14%;
+  }
+}

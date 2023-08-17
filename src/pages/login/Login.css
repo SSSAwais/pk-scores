@@ -1,0 +1,105 @@
+.login_main_wrapepr {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.login_main_wrapepr .row {
+  display: flex;
+  justify-content: space-between;
+}
+.login_main_wrapepr .left_section_sign,
+.login_main_wrapepr .right_section_signUp {
+  width: 48%;
+}
+.login_main_wrapepr .checkBox_signup {
+  display: flex;
+  align-items: center;
+}
+.login_main_wrapepr .checkBox_signup span {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.login_main_wrapepr .checkBox_signup h6 {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #00072c;
+}
+.login_main_wrapepr .buttons_section p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #00072c;
+  margin: 40px 0px;
+}
+.login_main_wrapepr .buttons_section {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.login_main_wrapepr .sign_up_button {
+  width: 100%;
+  padding: 16px 0px;
+  background: linear-gradient(266.57deg, #b6ffe5 -4.01%, #4eeeb3 89.75%);
+  border-radius: 10px;
+}
+.login_main_wrapepr .remember_forget {
+  display: flex;
+  justify-content: space-between;
+}
+.login_main_wrapepr .forget_password_login a{
+    text-decoration: none ;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00072C;
+    line-height: 22px;
+
+}
+.login_main_wrapepr .already_member .top_ {
+    margin-top: 40px;
+    justify-content:center;
+}
+.login_main_wrapepr .already_member .top_ p{
+    margin-right: 22px;
+}
+.login_main_wrapepr .right_section_signUp .prscrore_sign_ip img:nth-child(2){
+    margin-top: -40px;
+    height: 400px;
+    object-fit: contain;
+}
+.login_main_wrapepr .prscrore_sign_ip .pills {
+    width: 94%;
+    height: auto;
+}
+.remember_forget{
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+}
+.login_main_wrapepr .login_main_wrapepr .buttons_section{
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login_main_wrapepr .row {
+        flex-direction: column-reverse;
+      }
+      .login_main_wrapepr .left_section_sign,
+      .login_main_wrapepr .right_section_signUp {
+        width: 100%;
+      }
+      .login_main_wrapepr .right_section_signUp .prscrore_sign_ip img:nth-child(2){
+        margin-top: 0px;
+        height: auto;
+        object-fit: contain;
+    }
+    .login_main_wrapepr .mobile_view_sign_ip {
+        padding: 0px !important;
+      }
+}

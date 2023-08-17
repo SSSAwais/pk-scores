@@ -1,0 +1,10 @@
+.main_form_wrapper {
+  padding: 100px 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+@media screen and (max-width: 992px) {
+  .main_form_wrapper {
+    padding: 30px 25px;
+  }
+}

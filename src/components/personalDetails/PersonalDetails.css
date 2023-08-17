@@ -1,0 +1,183 @@
+.personal_row_section .personal_column_ {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #00072c;
+}
+.personal_det{
+  padding:0px !important;
+}
+.personal_row_section .personal_column_ h4 {
+  margin: 20px 0px;
+}
+.Personal_details {
+  width: 100%;
+  border-bottom: 1px solid #404040;
+}
+.personal_detail_Sect_ h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #00072c;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.progress {
+  background: #ecf5ff;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 3px;
+  width: 200px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 50px;
+  background: black;
+  height: 5px;
+  width: 0;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 68%;
+  }
+}
+.progress-value::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  top: -3px;
+  left: 0px;
+}         
+.progress-value::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: red;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: absolute;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  top: -3px;
+  right: 0px;
+}
+.personal_information_inner {
+  display: flex;
+}
+.personal_information .personal_information_inner .info_left_section {
+  width: 30%;
+}
+.info_left_section {
+  float: left;
+}
+.second_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.value input {
+  margin: 0px;
+  border: 1px solid #404040;
+  padding: 8px 25px;
+  color: #00072c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 40px;
+  text-align: center;
+  width: 100px;
+}
+.first_section p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00072c;
+  margin: 0px;
+}
+.second_section {
+  width: 50%;
+}
+/* .third_section {
+  width: 10%;
+} */
+.personal_information table tr td {
+  border: none;
+}
+.detail_sectionss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info_left_sec {
+  width: 25%;
+}
+.detail_sectionss2 {
+  display: flex;
+}
+.info_left_sec2 {
+  width: 43%;
+}
+.drop_selection_wrapper {
+  width: 45%;
+}
+.detail_sectionss2,
+.detail_sectionss {
+  margin-bottom: 25px;
+}
+.detail_sectionss {
+  margin-top: 25px;
+}
+.mobile_version {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .web_version {
+    display: none;
+  }
+  .mobile_version {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .info_left_sec2 {
+    width: 100%;
+  }
+  .detail_sectionss2 {
+    display: block;
+  }
+  .radio_wrapper {
+    text-align: center;
+  }
+  .drop_selection_wrapper {
+    width: 100%;
+  }
+  .tab_version {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .abs_button {
+    justify-content: center;
+    width: 100%;
+  }
+}

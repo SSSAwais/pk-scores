@@ -1,0 +1,47 @@
+.annual_wrapper {
+  background: rgba(240, 245, 255, 0.3);
+  border: 1px solid #ecf5ff;
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 10px;
+  width: 300px;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+.image_wrapper_annual {
+  text-align: center;
+}
+.content_section {
+  display: flex;
+  justify-content: space-between;
+}
+.annual_left_heading p,
+.annual_right_heading p,
+.annual_third_heading p {
+  color: #102691;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0px;
+}
+.annual_left_heading h6,
+.annual_right_heading h6,
+.annual_third_heading h6 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  background: linear-gradient(90deg, #2c70fc 0%, #5ba8f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0px;
+}
+.annual_third_heading {
+  margin-top: 16px;
+  text-align: center;
+}
+/* @media screen and (max-width: 1024px){
+  .annual_wrapper{
+    width: 280px;
+  }
+} */

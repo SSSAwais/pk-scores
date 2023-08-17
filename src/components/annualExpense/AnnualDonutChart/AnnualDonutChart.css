@@ -1,0 +1,15 @@
+.AnnualDonutChart {
+  position: relative;
+  }
+.annual--title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #102691;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}

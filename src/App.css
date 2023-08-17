@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: "orange";
+}
+.row {
+  display: flex;
+}
+
+.loader {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  inset: 0;
+  background: white;
+  z-index: 9999999;
+  overflow: hidden;
+}
+.loader img {
+  width: 250px;
+}
+
+.css-1qsxih2,
+.css-1oqqzyl-MuiContainer-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+@media screen and (max-width: 1280px) {
+  .css-1qsxih2,
+  .css-1oqqzyl-MuiContainer-root {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+}

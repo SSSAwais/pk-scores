@@ -1,0 +1,20 @@
+.FinancialHealth {
+  overflow: hidden;
+  position: relative;
+  margin-top: -90px;
+  padding-top: 100px;
+}
+.FinancialHealth::before {
+  position: absolute;
+  width: 782px;
+  height: 689px;
+  right: 0;
+  top: 201px;
+  background: #bfffe8;
+  filter: blur(227px);
+  content: "";
+}
+
+/* .Assumptions--component {
+  overflow: hidden;
+} */

@@ -1,0 +1,57 @@
+.health--hero--top--left .both--circle--for--responivse {
+  display: none;
+}
+.gra--tablet {
+  opacity: 0;
+  width: 0px !important;
+  visibility: hidden;
+  padding-right: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .health--hero--sec--btns {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 860px) {
+  .gra--tablet {
+    opacity: 1;
+    width: 50% !important;
+    visibility: visible;
+    padding-right: 0 !important;
+  }
+  .gra--dekotp {
+    opacity: 0;
+    width: 0px !important;
+    visibility: hidden;
+    padding-right: 0 !important;
+  }
+
+  .health--hero--sec--btns .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .gra--dekotp,
+  .gra--tablet {
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  .FinancialHelathHero--top .health--hero--top--left {
+    margin-bottom: 100px;
+  }
+  .health--hero--top--left .title {
+    position: relative;
+  }
+  .health--hero--top--left .both--circle--for--responivse {
+    display: block;
+    position: absolute;
+    top: -70px;
+    right: -10px;
+  }
+  .both--circle--for--responivse img {
+    width: 70px;
+  }
+}

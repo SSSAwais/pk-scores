@@ -1,0 +1,210 @@
+#RFS-StepperContainer {
+  height: 400px;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.MuiStepLabel-labelContainer {
+  cursor: pointer;
+  padding-left: 40px;
+}
+.step_container {
+  padding: 0px !important;
+}
+.stepper_main {
+  padding-left: 0px !important;
+}
+
+#RFS-StepMain {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+}
+
+#RFS-Label {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#RFS-Connector {
+  color: red !important;
+  background-color: orange !important;
+  height: 5px;
+}
+
+#RFS-Connector {
+  border-left: 6px solid green;
+  /* height: 500px; */
+}
+
+.mainDiv {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  /* flex-direction: row; */
+  justify-content: space-around;
+}
+
+.mainDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text {
+  position: relative;
+}
+
+.MuiStepLabel-iconContainer > .MuiSvgIcon-root {
+  border: 2px solid #f1f3f4;
+  border-radius: 50% !important;
+}
+
+.MuiStepLabel-iconContainer > .MuiSvgIcon-root.MuiStepIcon-active {
+  margin-left: 1px !important;
+}
+
+.MuiStepIcon-text {
+  fill: #fff;
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: none;
+}
+.MuiStepLabel-label.MuiStepLabel-completed {
+  margin-left: 2px !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  /* background: linear-gradient(90deg, #26D878 0%, #50EFB6 100%); */
+
+  color: #26d878 !important;
+  background-color: #26d878 !important;
+  border-radius: 50%;
+  border: none;
+}
+.MuiStepConnector-active {
+  color: red !important;
+}
+
+.MuiStepIcon-active {
+  color: #4eeeb3 !important;
+  background-color: #4eeeb3 !important;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #4eeeb3 !important;
+}
+
+.MuiStepConnector-vertical {
+  padding: 0px !important;
+  /* margin-left: 6px; */
+  width: 15px !important;
+}
+
+.MuiStepConnector-vertical {
+  padding: 0px !important;
+  /* margin-left: 6px; */
+  width: 6px !important;
+  /* background: orange !important; */
+}
+.MuiStepConnector-vertical {
+  /* padding: 0 0 8px !important; */
+  /* margin-left: 8px !important; */
+}
+
+.stepper_main .MuiStepConnector-vertical {
+  margin-left: 5px !important;
+}
+.stepper_main .MuiStepConnector-completed .MuiStepConnector-lineVertical {
+  border-color: #26d878 !important;
+}
+.MuiStep-vertical.MuiStep-completed {
+  margin-left: 3px !important;
+}
+
+.stepper_main .MuiStepConnector-vertical.MuiStepConnector-active,
+.stepper_main .MuiStepConnector-completed {
+  margin-left: 6px !important;
+}
+.stepper_main .MuiStepLabel-iconContainer {
+  padding-right: 0 !important;
+  /* padding-left: 3px !important; */
+}
+/* .MuiStepLabel-vertical.step_label {
+  margin-left: 2px;
+} */
+.MuiStepConnector-line {
+  display: block;
+  border-color: #f1f3f4 !important;
+}
+
+.MuiStepConnector-lineVertical {
+  min-height: 40px !important;
+  border-left-style: solid;
+  border-left-width: 0px !important;
+  border-left: 2px solid #f1f3f4 !important;
+  /* display: none !important; */
+  /* background-color: red !important; */
+  /* border-color: orange !important; */
+  /* width: 0px !important; */
+}
+
+/* .MuiStepConnector-lineVertical {
+    min-height: 100px !important;
+    border-left-style: solid;
+    border-left-width: 1px;
+} */
+.step_container .MuiStepLabel-label {
+  font-family: "Inter", sans-serif !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #00072c;
+}
+.Mui-disabled > .MuiStepConnector-lineVertical {
+  background: linear-gradient(90deg, #26d878 0%, #50efb6 100%);
+  border: 4px solid;
+}
+
+.Mui-disabled > .MuiStepLabel-iconContainer > .MuiStepIcon-root {
+  color: white !important;
+  /* display: block; */
+}
+.stepper_main .MuiStepConnector-vertical.Mui-disabled {
+  max-height: 40px !important;
+}
+.MuiStepConnector-vertical {
+  padding: 0px !important;
+  /* margin-left: 8px; */
+  width: 6px !important;
+  background: linear-gradient(90deg, #26d878 0%, #50efb6 100%) !important;
+}
+
+.MuiStepConnector-active > .MuiStepConnector-lineVertical {
+  color: #26d878;
+  border: 0px !important;
+}
+
+.MuiStepConnector-completed > .MuiStepConnector-line {
+  /* border-color: white !important; */
+}
+.step_label svg {
+  width: 12px !important;
+  height: 12px !important;
+}
+/* 3/1/22 */
+
+.MuiStepContent-root {
+  margin-top: 0px !important;
+  border-left: 6px solid #f1f3f4 !important;
+  margin-left: 8px !important;
+  padding-left: 20px;
+  padding-right: 8px;
+}

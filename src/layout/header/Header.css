@@ -1,0 +1,83 @@
+header {
+  position: relative;
+  z-index: 11111;
+}
+header .header {
+  padding: 15px 0px;
+}
+
+.header .row {
+  justify-content: space-between;
+  align-items: center;
+}
+/* header--left */
+
+.header--left img {
+  height: auto;
+  max-height: 45px;
+  width: 100%;
+}
+
+/* header--right */
+
+.header--right .login--btn {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  border: none;
+  background: transparent;
+}
+.header--right .login--btn a {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 10px;
+  color: #102691;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 11111;
+  height: 100%;
+}
+.header--right .login--btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1px;
+  background: linear-gradient(266.57deg, #3479fb -4.01%, #4eeeb3 89.75%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+@media screen and (max-width: 1280px) {
+  header .header {
+    padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header--left img {
+    max-height: 35px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header .header--left {
+    margin: auto;
+    text-align: center;
+  }
+  .header .header--right {
+    display: none;
+  }
+  header {
+    position: relative;
+    z-index: 4444;
+  }
+}

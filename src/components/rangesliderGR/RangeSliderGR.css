@@ -1,0 +1,80 @@
+.range--slider--gr {
+  position: relative;
+  width: 225px;
+  margin: auto;
+}
+.range--slider--gr::after,
+.range--slider--gr::before {
+  content: "";
+  background-image: url("../../assets/images/not-fil-range.png");
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  z-index: 9999;
+  background-repeat: no-repeat;
+  top: -2px;
+}
+.range--slider--gr::before {
+  left: 0;
+}
+.range--slider--gr::after {
+  right: 0;
+}
+.range--slider--gr .rangeslider__handle {
+  background: linear-gradient(90deg, #2c70fc 0%, #5ba8f6 100%) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: none !important;
+}
+
+.range--slider--gr .rangeslider__handle:after {
+  display: none !important;
+}
+.range--slider--gr .rangeslider-horizontal {
+  border-radius: 0 !important;
+  height: 8px !important;
+}
+.range--slider--gr .rangeslider-horizontal .rangeslider__handle {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.range--slider--gr .rangeslider {
+  background: #ecf5ff !important;
+  box-shadow: none !important;
+  max-width: 195px;
+  margin: 5px auto !important;
+  width: 100%;
+}
+.range--slider--gr .rangeslider .rangeslider__fill {
+  box-shadow: none;
+}
+.range--slider--gr .rangeslider-horizontal .rangeslider__fill {
+  background: linear-gradient(
+    90deg,
+    rgba(44, 112, 252, 0.3) 0%,
+    #5ba8f6 76.39%
+  ) !important;
+}
+@media screen and (max-width: 1200px) {
+  .range--slider--gr {
+    width: 210px;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .range--slider--gr {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 955px) {
+  .range--slider--gr {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .range--slider--gr {
+    width: 100%;
+  }
+  .range--slider--gr .rangeslider {
+    max-width: 90%;
+  }
+}

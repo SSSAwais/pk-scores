@@ -1,0 +1,20 @@
+.button_Compo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_Compo button{
+margin-right: 20px;
+}
+
+@media screen and (max-width: 992px){
+    .button_Compo{
+        flex-direction: column;
+    }
+    .button_Compo button{
+        margin: 0px;
+    }
+    .button_Compo{
+        margin-bottom: 40px;
+    }
+}

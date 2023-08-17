@@ -1,0 +1,56 @@
+.CircleProgress .circle_progressCircleBar__1IKUZ {
+  transform: rotate(90deg) !important;
+}
+
+.CircleProgress .dircle--title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 38px;
+  color: #102691;
+}
+
+.CircleProgress {
+  position: relative;
+}
+.CircleProgress--content {
+  width: 250px;
+  background: transparent;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 75px;
+  right: 71px;
+}
+.CircleProgress--content .dircle--disc {
+  font-family: "Inter", sans-serif;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+
+  background: linear-gradient(90deg, #2c70fc 0%, #5ba8f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media screen and (max-width: 860px) {
+  .CircleProgress--content {
+    right: 8%;
+    top: 10%;
+  }
+  .health--hero--top--right .circle--img {
+    bottom: -50px !important;
+  }
+}

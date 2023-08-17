@@ -1,0 +1,10 @@
+.health--hero--bottom--circle {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .health--hero--bottom--circle {
+    display: block;
+    position: relative;
+  }
+}

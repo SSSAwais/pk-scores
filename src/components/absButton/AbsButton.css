@@ -1,0 +1,24 @@
+.abs_button{
+    background: linear-gradient(266.57deg, #B6FFE5 -4.01%, #4EEEB3 89.75%);
+border-radius: 10px;
+padding:17px 50px;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+color: #102691;
+border: none;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+.abs_button svg{
+    margin-left: 6px;
+}
+@media screen and (max-width:992px){
+  .abs_button{
+    width: 100%;
+    justify-content: center;
+  }
+
+}

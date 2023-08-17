@@ -1,0 +1,66 @@
+.key_figures_wrapper {
+  width: 300px;
+  background: #ffffff;
+  border: 1px solid #ecf5ff;
+  box-shadow: 0px 4px 10px rgba(16, 38, 145, 0.08);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.lists_key {
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6px 0px;
+}
+.lists_key h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #00072c;
+  margin: 0px;
+}
+.lists_key p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #00072c;
+  display: flex;
+  align-items: center;
+}
+.lists_key .amount {
+  color: #102691;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.lst_amount {
+  margin-bottom: 20px;
+}
+.key_heading h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102691;
+  text-align: center;
+  margin: 0px;
+}
+.key_figures_wrapper .circle_reactGradientProgress__1_0UG span {
+  color: #102691 !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
+  line-height: 16px !important;
+}
+.key_figures_wrapper .circle_progressCircleBar__1IKUZ{
+
+  transform: rotate(90deg) !important;
+}
+@media screen and (max-width: 1024px){
+  .key_figures_wrapper{
+    width: 280px;
+  }
+}
